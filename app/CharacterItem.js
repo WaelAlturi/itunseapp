@@ -20,25 +20,21 @@ const CharecterItems =(props) =>{
       break;
   }
     return(
-        <View>
-
           <View style={myStyle.viewBB}>
-          <View style={{width:'3%',height:'100%',backgroundColor:bg}}></View>
-            <Image style={myStyle.imgBB} source={{url:props.charecter.img}} />
-        <View>
-          <Text style={myStyle.nameBB}>{props.charecter.name}</Text>
-          <Text style={myStyle.nicknameBB}>{props.charecter.nickname}</Text>
-          <View style={myStyle.line}>
-        </View>
-          <Text style={myStyle.occupationBB}>{props.charecter.occupation}</Text>
-        </View>
+            <View style={{width:'3%',height:'100%',backgroundColor:bg}}></View>
+              <Image style={myStyle.imgBB} source={{url:props.charecter.img}} />
+              <View>
+                <Text style={myStyle.nameBB}>{props.charecter.name}</Text>
+                <Text style={myStyle.nicknameBB}>{props.charecter.nickname}</Text>
+                <View style={myStyle.line}></View>
+                <Text style={myStyle.occupationBB}>{props.charecter.occupation}</Text>
+              </View>
           </View>
-        </View>
     )
 }
 const myStyle = StyleSheet.create({
     imgBB:{
-        width:'30%',height:130,margin:7,height:140
+        width:'30%',height:130,height:'100%'
       },
     nameBB:{
         fontSize:20,fontWeight:'800', padding:5,color:'green',marginTop:10
