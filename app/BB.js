@@ -83,10 +83,10 @@ const BB = () =>{
 
     btntext:{ color:'#254E70', fontWeight:'700',},
     viewBB:{
-      flexDirection:'row',backgroundColor:'#EFF5F5',margin:10,borderRadius:20,width:'100%'
+      flexDirection:'row',backgroundColor:'#EFF5F5',margin:10,borderRadius:20,width:'100%',height:160,
     },
     imgBB:{
-      width:100,height:100,margin:10
+      width:100,height:100,margin:10,height:140
     },
     nameBB:{
       fontSize:20,fontWeight:'800', padding:5,color:'green',marginTop:10
