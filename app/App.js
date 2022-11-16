@@ -54,7 +54,7 @@ const App = () =>{
           data={result}
           keyExtractor={item => item.char_id}
           renderItem={iteamRow => 
-            <CharecterItems/>
+            <CharecterItems  charecter ={iteamRow.item}/>
           }
           />
           ) :(
